@@ -1,0 +1,16 @@
+[package]
+name = "compress-cli"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.66"
+description = "A small, conservative PDF and image compression router"
+license = "MIT"
+
+[[bin]]
+name = "compress"
+path = "src/main.rs"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true

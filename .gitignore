@@ -1,0 +1,6 @@
+/target/
+/dist/
+__pycache__/
+
+/work/
+/test_item/
